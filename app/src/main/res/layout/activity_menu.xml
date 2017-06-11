@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
     tools:context="com.google.colorblindtest.Menu">
 
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:background="#f45f42"
+        android:textColor="#FFF"
+        android:text="MULAI"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="354dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="173dp" />
+
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Menu"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="233dp" />
-</android.support.constraint.ConstraintLayout>
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp"
+        android:textAlignment="center"
+        android:text="COLOR BLIND TEST"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="208dp" />
+</RelativeLayout>
