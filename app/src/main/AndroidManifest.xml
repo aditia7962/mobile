@@ -17,8 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Menu" />
-        <activity android:name=".Kuis" />
-        <activity android:name=".Hasil"></activity>
+        <activity android:name=".Kuis"></activity>
     </application>
 
 </manifest>
