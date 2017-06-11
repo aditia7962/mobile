@@ -3,12 +3,30 @@
 
     <item
         is-multidex="true"
+        jar="E:\sarjah\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a10d7498b579eecc19ef4a5f5184738bbe49d16">
+        <dex dex="E:\sarjah\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d0d4f4addbfa1254bec6ae82d21c0c4618f4c4d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\rini\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
         <dex dex="E:\rini\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_05b8c8e3682f6a49ed1911eba5efadd6473f1ee9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\sarjah\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="E:\sarjah\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0a149db60fa56475abbbbd36f742a983f25e32ae\classes.dex" />
     </item>
     <item
         is-multidex="true"
