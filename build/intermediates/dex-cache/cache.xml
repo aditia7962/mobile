@@ -3,12 +3,30 @@
 
     <item
         is-multidex="true"
+        jar="E:\agus\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="E:\agus\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7c927aeda7e1bfcc20ca8d3346b65d0864c6c5e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\rini\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
         <dex dex="E:\rini\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_05b8c8e3682f6a49ed1911eba5efadd6473f1ee9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\agus\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="713cce6649ffe25015635c3e53c42e8f2179b15a">
+        <dex dex="E:\agus\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0e38d0bc234083eb4e954e91123cd0b1bef1ebc3\classes.dex" />
     </item>
     <item
         is-multidex="true"

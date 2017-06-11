@@ -1,9 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#FFFFFF"
     tools:context="com.google.colorblindtest.Hasil">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/grade"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELAMAT"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="186dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/outOf" />
+
+    <TextView
+        android:id="@+id/outOf"
+        android:layout_margin="16dp"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:text="Score
+"
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_below="@+id/outOf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Menu"
+            android:background="#2196F3"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:id="@+id/menu" />
+
+        <Button
+            android:text="Muat Ulang"
+            android:background="#2196F3"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:id="@+id/retry" />
+    </LinearLayout>
+</RelativeLayout>
